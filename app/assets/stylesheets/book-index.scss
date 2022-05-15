@@ -1,0 +1,40 @@
+.book-index .book-index-item span {
+  margin: 15px;
+  float: left;
+  max-width: 465px;
+  white-space: pre-wrap;
+}
+
+.book-index .book-index-item img {
+  float: left;
+  margin: 45px 0;
+  border: 2px solid black;
+}
+
+.book-index .book-index-item {
+  margin-left: 20px;
+  width: 650px;
+  clear: both;
+}
+
+.book-index {
+  margin-left: 15%;
+}
+
+.book-index .book-index-item .book-description {
+  margin: 15px 0;
+}
+
+.book-index .book-index-item-container {
+  overflow: auto;
+  width: 700px;
+  border-bottom: 3px dashed brown;
+}
+
+.book-index .book-index-item a {
+  text-decoration: underline;
+}
+
+.book-index .book-index-item a:hover {
+  color: blue;
+}

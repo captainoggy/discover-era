@@ -1,0 +1,137 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.ReactModal__Body--open .closeButton {
+  float: left;
+  clear: both;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 20pt;
+  font-weight: bold;
+  display: inline-block;
+  padding: 15px;
+  float: left;
+  margin-left: 50px;
+  float: left;
+  color: #633b1d;
+}
+
+.title:hover {
+  background-color: #633b1d;
+  color: white;
+}
+
+.button {
+  width: 70px;
+  height: 40px;
+  font-size: 10pt;
+  background-color: wheat;
+  float: right;
+  margin: 11px 0;
+  margin-right: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navBar .right-group {
+  position: absolute;
+  right: 150px;
+}
+
+.welcome-msg {
+  float: right;
+  margin: 18px 15px;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.button:hover {
+  background-color: #ffd88f;
+}
+
+.navBar {
+  background-color: #e0d5c2;
+  height: 60px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  min-width: 1200px;
+}
+
+.content {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+}
+
+img {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.browse-box {
+  width: 65%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.browse-item {
+  float: left;
+  margin: 20px;
+}
+
+.browse-item img {
+  border: 2px solid black;
+}
+
+body.modal-open {
+  overflow: visible;
+  height: 100%;
+}
+
+.add-bookshelf-form h3 {
+    font-weight: bold;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.add-bookshelf-form #register {
+    width: 160px;
+    height: 30px;
+    font-size: 10pt;
+    background-color: #ffd88f;
+    float: left;
+    margin-left: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.add-bookshelf-form #register:disabled {
+    display: none;
+}
+
+.pages {
+    float: right;
+    padding-right: 50px;
+}
+
+.page-numbers {
+    float: left;
+    margin: 10px;
+    list-style: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.searchLi {
+    cursor: pointer;
+}

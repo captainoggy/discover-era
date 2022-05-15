@@ -1,0 +1,78 @@
+.navBar .search-box {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  height: 25px;
+  width: 200px;
+  position: absolute;
+  left: 40%;
+}
+
+.navBar .search-box input {
+  height: inherit;
+  width: inherit;
+  font-size: 13pt;
+  text-align: center;
+  border-radius: 10px;
+  margin: auto;
+
+  color: transparent;
+  text-shadow: 0 0 0 gray;
+
+  &:focus {
+      box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+      border: 1px solid rgba(81, 203, 238, 1);
+  }
+}
+
+.navBar .search-box .search-results {
+  color: #333333;
+  background: white;
+  position: absolute;
+  width: 400px;
+  z-index: 70;
+}
+
+.navBar .search-box .search-results li {
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  padding-right: 10px;
+  border: 1px solid black;
+  clear: both;
+  overflow: auto;
+}
+
+.navBar .search-box .search-results li img {
+  height: 100px;
+  width: auto;
+  float: left;
+}
+
+.navBar .search-box .search-results li div {
+  max-width: 250px;
+  float: left;
+  margin-left: 15px;
+}
+
+.navBar .search-box .search-results li .search-title {
+  font-size: 13pt;
+  font-weight: 550;
+  font-weight: bold;
+}
+
+.navBar .search-box .search-results li .book-author {
+  font-size: 10pt;
+}
+
+.navBar .search-box .search-results li .book-author:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.navBar .search-box .search-results .not-found {
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+}

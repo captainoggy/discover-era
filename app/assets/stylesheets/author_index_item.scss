@@ -1,0 +1,41 @@
+.author-index .author-index-item img {
+  height: 200px;
+  width: auto;
+  margin: 0 auto;
+  float: left;
+}
+
+.author-index .author-index-item span {
+  margin-left: 20px;
+  float: left;
+  list-style: none;
+  max-width: 400px;
+}
+
+.author-index .author-index-item li {
+  margin-top: 20px;
+}
+
+.author-index .author-index-item {
+  padding-bottom: 20px;
+  margin: 50px;
+  border-bottom: 3px dashed brown;
+  width: 100%;
+  overflow: auto;
+  clear: both;
+}
+
+.author-index .author-index-item a {
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.author-index .author-index-item a:hover {
+  color: blue;
+}
+
+.author-index {
+  margin-left: 15%;
+  top: 70px;
+  position: absolute;
+}
